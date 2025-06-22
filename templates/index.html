@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wild Animal Detector</title>
+</head>
+<body>
+    <h1>Wild Animal Detector</h1>
+
+    <h2>Upload an Image</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <input type="submit" value="Detect">
+    </form>
+
+    <h2>Or Use Webcam for Real-Time Detection</h2>
+    <a href="/webcam">Go to Webcam Detection</a>
+</body>
+</html>

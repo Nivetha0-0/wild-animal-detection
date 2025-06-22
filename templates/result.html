@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detection Result</title>
+</head>
+<body>
+    <h1>Detection Complete</h1>
+
+    <img src="{{ url_for('static', filename=result_img) }}" width="700" alt="Detected Image">
+
+    {% if detected_classes %}
+        <h3>Detected Animals:</h3>
+        <ul>
+            {% for cls in detected_classes %}
+                <li>{{ cls }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No animals detected.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">← Back to Home</a>
+</body>
+</html>
