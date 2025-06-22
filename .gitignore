@@ -1,0 +1,35 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Model weights
+*.pt
+
+# YOLO runs output
+runs/
+
+# Flask uploads
+static/uploads/
+
+# Log files
+*.log
+
+# VS Code project settings
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
