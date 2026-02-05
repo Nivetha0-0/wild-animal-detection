@@ -1,1 +1,7 @@
-cv2
+flask
+gunicorn
+ultralytics
+torch
+numpy
+opencv-python-headless
+Pillow
